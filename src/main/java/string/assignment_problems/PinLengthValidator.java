@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class PINLengthValidator {
+class PinLengthValidator {
     void checkPinLength(String pin) {
         if (pin.length() == 4) {
             System.out.println("PIN length OK.");
@@ -10,7 +10,7 @@ class PINLengthValidator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String pin = scanner.nextLine();
-        PINLengthValidator validator = new PINLengthValidator();
+        PinLengthValidator validator = new PinLengthValidator();
         validator.checkPinLength(pin);
     }
 }

@@ -1,0 +1,10 @@
+B. It reduces an O(n2) time complexity to O(n) time complexity while using O(1) additional space.
+C. Traversal
+C. O(1)
+C. Users expect immediate responses for a frequently used feature.
+C. Inserting or deleting elements at arbitrary positions in an array typically requires shifting many subsequent elements, resulting in O(n) time complexity for each operation.
+C. Hash-based structure
+C. The data must be sorted.
+A. Drop constant multipliers. , C. If loops iterate over different inputs (m and n) sequentially, their complexities are added. , E. Nested loops over the same input (n) multiply their complexities.
+A. The window always maintains a fixed size, 'k'. , B. It is used to maintain a contiguous range of elements over an array. , C. Each element within the array is added to and removed from the window at most once. , D. It typically reduces an O(n2) or O(n × k) naive recomputation to O(n).
+C. O(n)

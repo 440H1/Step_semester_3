@@ -1,0 +1,10 @@
+1) Big-O notation describes how the number of steps of an algorithm grows as the input size becomes large. Algorithm A takes 3n + 10 steps, so its complexity is O(n), while Algorithm B takes n² + 2 steps, so its complexity is O(n²).
+   For small values of n, Algorithm B may sometimes take fewer steps. However, as n increases, n² grows much faster than n. Therefore, Algorithm A is more efficient for large inputs. Constants and lower-order terms are ignored in Big-O notation.
+
+
+2) Primitive data structures store simple and single values such as int, char, float, and boolean. Non-primitive data structures are used to store and organize multiple related values.
+   Examples of non-primitive data structures are arrays, linked lists, stacks, queues, and trees. For example, a Student can have a name, register number, marks, and department. A class or object can group all these related values together, making the data easier to organize and manage.
+
+
+3) Binary search cannot be directly applied to an unsorted array because it works by checking the middle element and deciding which half of the array to search next. This decision is only possible when the elements are arranged in sorted order.
+   Therefore, the array must be sorted before applying binary search. If an unsorted array needs to be sorted first, the sorting process generally takes O(n log n) time. After sorting, binary search can find an element in O(log n) time.
